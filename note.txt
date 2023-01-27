@@ -1,0 +1,10 @@
+buatlah sebuah fungsi yang menerima argumen berupa array bertipe integer dan mengembalikan sebuah value integer. Tugas kalian adalah meringkas
+array tersebut dengan rumus:
+
+a = [1, 2, 3, 4, 5]
+k = 15
+
+- [2, 3, 4, 5]
+- [6, 5, 5]
+
+retunr len(a)
