@@ -1,8 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-func GetSum(a, b int) int {
+func GetSum(a, b int) (sum int) {
 	if a == b {
 		return a
 	}
@@ -11,11 +13,10 @@ func GetSum(a, b int) int {
 		a, b = b, a
 	}
 
-	sum := 0
 	for i := a; i <= b; i++ {
 		sum += i
 	}
-	return sum
+	return
 }
 
 func main() {
